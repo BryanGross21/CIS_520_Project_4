@@ -1,0 +1,4 @@
+/homes/bryangross21/CIS_520_Project_4/hw4/3way-pthread/pthread/src/CMakeFiles/pthread.dir
+/homes/bryangross21/CIS_520_Project_4/hw4/3way-pthread/pthread/src/CMakeFiles/pthread_exe.dir
+/homes/bryangross21/CIS_520_Project_4/hw4/3way-pthread/pthread/src/CMakeFiles/edit_cache.dir
+/homes/bryangross21/CIS_520_Project_4/hw4/3way-pthread/pthread/src/CMakeFiles/rebuild_cache.dir
