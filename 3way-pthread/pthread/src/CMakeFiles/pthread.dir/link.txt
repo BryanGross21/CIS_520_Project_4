@@ -1,0 +1,2 @@
+/opt/software/software/binutils/2.38-GCCcore-11.3.0/bin/ar qc libpthread.a CMakeFiles/pthread.dir/pthread.c.o
+/opt/software/software/binutils/2.38-GCCcore-11.3.0/bin/ranlib libpthread.a

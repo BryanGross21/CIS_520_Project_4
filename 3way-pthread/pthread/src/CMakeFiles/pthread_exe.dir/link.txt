@@ -1,0 +1,1 @@
+/opt/software/software/GCCcore/11.3.0/bin/cc -rdynamic CMakeFiles/pthread_exe.dir/pthread.c.o -o pthread_exe 
