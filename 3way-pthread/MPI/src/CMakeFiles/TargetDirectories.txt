@@ -1,0 +1,4 @@
+/homes/bryangross21/CIS_520_Project_4/3way-pthread/MPI/src/CMakeFiles/MPI.dir
+/homes/bryangross21/CIS_520_Project_4/3way-pthread/MPI/src/CMakeFiles/MPI_exe.dir
+/homes/bryangross21/CIS_520_Project_4/3way-pthread/MPI/src/CMakeFiles/edit_cache.dir
+/homes/bryangross21/CIS_520_Project_4/3way-pthread/MPI/src/CMakeFiles/rebuild_cache.dir
