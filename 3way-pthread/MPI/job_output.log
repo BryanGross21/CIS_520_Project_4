@@ -1,2 +1,0 @@
-/bin/rm -f MPI.o		 mpi
-mpicc    -c -o MPI.o MPI.c

@@ -1,2 +1,0 @@
-/opt/software/software/binutils/2.38-GCCcore-11.3.0/bin/ar qc libMPI.a CMakeFiles/MPI.dir/MPI.c.o
-/opt/software/software/binutils/2.38-GCCcore-11.3.0/bin/ranlib libMPI.a

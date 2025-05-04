@@ -1,8 +1,0 @@
-pthread.c: In function ‘findMaxAscii’:
-pthread.c:11:22: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
-   11 |         int start = ((int)id) * ((AMOUNT_LINES + NUM_THREADS) / NUM_THREADS);
-      |                      ^
-pthread.c: In function ‘main’:
-pthread.c:75:65: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
-   75 |                 pthread_create(&threads[i], NULL, findMaxAscii, (void *)i);
-      |                                                                 ^
