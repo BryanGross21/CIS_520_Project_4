@@ -4,14 +4,7 @@
 #include <string.h>
 #include <errno.h>
 
-#define AMOUNT_LINES 1000 //The amount of lines to read in
-#define LINE_LENGTH 2000 //The length of each line 
-
-char lines[AMOUNT_LINES][LINE_LENGTH]; //Represents the lines that we store
-int results[AMOUNT_LINES]; //Represents our global results we find
-int lineNum; //Represents the amount of lines we've read in
-int numThreads; //The number of threads obtained by the max amount of cores
-
+#include "OpenMP.h"
 
 void* findMaxAscii()
 {
