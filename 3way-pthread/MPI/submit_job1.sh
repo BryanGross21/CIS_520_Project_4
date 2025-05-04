@@ -8,11 +8,10 @@
 #SBATCH --nodelist=mole[045,046] 
 #SBATCH --time=00:01:00             # Maximum runtime (hh:mm:ss)
 
-
 module purge
-module load openmpi
+module load OpenMPI/4.1.4-GCC-11.3.0
 
 make clean
 make FIELDS="-DAMOUNT_LINES=2000 -DLINE_LENGTH=4000"
 
-mpirun -np 4 ./mpi
+mpirun -np 1 ./mpi
