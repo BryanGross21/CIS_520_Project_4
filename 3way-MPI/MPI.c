@@ -59,9 +59,9 @@ int main(int argc, char* argv[])
 		char* line = NULL; //The data of the current line being read
 	
 
-		while(getline(&line,&size,fd) != -1 && lineNum < AMOUNT_LINES)
+		while(getline(&line,&size,fd) != -1)
 		{
-			snprintf(lines[lineNum], size, "%s", line); //Copies over the read line into lines at position lineNum
+			snprintf(lines[lineNum], LINE_LENGTH, "%s", line); //Copies over the read line into lines at position lineNum
 			lineNum++;
 		}
 		free(line); //Free up the read in line
@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
 	{
 		for(i = 0; i < lineNum; i++)
 		{
-			printf("%d: %d\n", (i + 1), results[i]); //print the results of the lines
+			printf("%d: %d\n", (i), results[i]); //print the results of the lines
 		}		
 	}
 	

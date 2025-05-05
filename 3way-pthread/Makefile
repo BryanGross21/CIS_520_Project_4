@@ -1,8 +1,8 @@
 CC = gcc
 
-PROGRAM = pthread
+PROGRAM = pthread_prog
 SRCS = pthread.c		# source file
-FLAGS = -DAMOUNT_LINES=1000 -DLINE_LENGTH=2000 -DNUM_THREADS=8
+FLAGS = -DAMOUNT_LINES=1100000 -DLINE_LENGTH=2000
 LDFLAGS = -pthread
 OBJS      = $(SRCS:.c=.o)		# object file
 
